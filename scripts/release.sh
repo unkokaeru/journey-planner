@@ -24,7 +24,7 @@ fi
 echo '' > CHANGELOG.md
 
 # Update the changelog
-gitchangelog
+gitchangelog > CHANGELOG.md
 git add CHANGELOG.md
 git commit -m "Update CHANGELOG.md"
 
@@ -36,6 +36,10 @@ poetry version "$1"
 
 # Get the new version number
 new_version=$(poetry version -s)
+
+# Update the VERSION file
+echo $new_version > source/blankslate/VERSION
+git add source/blankslate/VERSION
 
 # Update the version number in the git repo
 git add .
