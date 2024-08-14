@@ -60,7 +60,10 @@ def command_line_interface() -> dict[str, Any]:
         action="store",
         type=str,
         required=False,
-        help="Ending location for the journey, if not provided, the journey will be a return journey.",
+        help=(
+            "Ending location for the journey, "
+            "if not provided, the journey will be a return journey."
+        ),
     )  # Ending location
 
     argparser.add_argument(

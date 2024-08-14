@@ -1,6 +1,6 @@
 # journey_planner
 
-![Continuous Integration (CI) Tests](https://github.com/unkokaeru/journey_planner/actions/workflows/continuous_integration.yml/badge.svg)
+![Continuous Integration (CI) Tests](https://github.com/unkokaeru/journey-planner/actions/workflows/continuous_integration.yml/badge.svg)
 
 Plan a quick walk in your car!
 
@@ -21,7 +21,7 @@ journey_planner
 ```
 
 ## Documentation
-For more information, you can find the documentation within the `docs` directory or on the project's [GitHub Pages](https://unkokaeru.github.io/journey_planner/).
+For more information, you can find the documentation within the `docs` directory or on the project's [GitHub Pages](https://unkokaeru.github.io/journey-planner/).
 
 ## Contributing
 

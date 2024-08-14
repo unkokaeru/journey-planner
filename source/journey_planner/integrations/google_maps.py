@@ -1,5 +1,4 @@
-"google_maps.py: Integration with the Google Maps API."
-
+"""google_maps.py: Integration with the Google Maps API."""
 
 import json
 from typing import Any, Literal
@@ -18,7 +17,8 @@ def get_distance_matrix(
     units: Literal["metric", "imperial"] = "metric",
 ) -> dict[str, Any]:
     """
-    Retrieve the distance and duration between two locations using the Google Maps Distance Matrix API.
+    Retrieve the distance and duration between two locations
+    using the Google Maps Distance Matrix API.
 
     Parameters
     ----------
@@ -295,7 +295,8 @@ def compute_route(
         if response.status_code == 403:
             raise ValueError(
                 "API request failed with status code 403: Forbidden. "
-                "This could be due to an invalid API key, lack of permissions, or exceeding the quota."
+                "This could be due to an invalid API key, lack of permissions, "
+                "or exceeding the quota."
             )
         else:
             raise ValueError(

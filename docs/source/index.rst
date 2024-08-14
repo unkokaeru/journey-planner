@@ -1,8 +1,8 @@
-   Welcome to the Journey_planner's documentation!
+   Welcome to the journey-planner's documentation!
    ================================================================
 
-.. image:: https://github.com/unkokaeru/journey_planner/actions/workflows/continuous_integration.yml/badge.svg
-    :target: https://github.com/unkokaeru/journey_planner/actions/workflows/continuous_integration.yml
+.. image:: https://github.com/unkokaeru/journey-planner/actions/workflows/continuous_integration.yml/badge.svg
+    :target: https://github.com/unkokaeru/journey-planner/actions/workflows/continuous_integration.yml
     :alt: Continuous Integration (CI) Tests
 
 Plan a quick walk in your car!
@@ -10,7 +10,7 @@ Plan a quick walk in your car!
 Installation
 ------------
 
-To install journey_planner, simply run:
+To install journey-planner, simply run:
 
 .. code-block:: bash
 
@@ -30,22 +30,6 @@ Or, you can run the package as a script:
 .. code-block:: bash
 
     python -m journey_planner
-
-Features
---------
-
-.. list-table::
-   :widths: 25 75
-   :header-rows: 1
-
-   * - Feature
-     - Description
-   * - Feature 1
-     - Description of feature 1.
-   * - Feature 2
-     - Description of feature 2.
-   * - etc.
-     - *To be filled in by the project maintainer*.
 
 Documentation
 -------------

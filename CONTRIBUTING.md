@@ -1,6 +1,6 @@
 # Contributing to Blankslate
 
-We welcome contributions from the community and are pleased that you are interested in helping to improve journey_planner. This document will guide you through the contribution process.
+We welcome contributions from the community and are pleased that you are interested in helping to improve journey-planner. This document will guide you through the contribution process.
 
 ## Code of Conduct
 
@@ -8,7 +8,7 @@ By participating, you are expected to uphold this code. Please report unacceptab
 
 ## Reporting Issues
 
-Before creating bug reports, please check [this list](https://github.com/unkokaeru/journey_planner/issues) as you might find out that you don't need to create one. When you are creating a bug report, please include as many details as possible:
+Before creating bug reports, please check [this list](https://github.com/unkokaeru/journey-planner/issues) as you might find out that you don't need to create one. When you are creating a bug report, please include as many details as possible:
 
 1. **Use a clear and descriptive title** for the issue to identify the problem.
 2. **Describe the exact steps which reproduce the problem** in as many details as possible. When listing steps, don't just say what you did, but explain how you did it.
@@ -19,7 +19,7 @@ Before creating bug reports, please check [this list](https://github.com/unkokae
 
 ## Contributions
 
-We invite you to contribute to journey_planner in the following ways:
+We invite you to contribute to journey-planner in the following ways:
 
 1. **Pull Requests**: Please follow the steps below for your contributions:
     - Fork the repository and create your branch from `main`.
@@ -54,4 +54,4 @@ We invite you to contribute to journey_planner in the following ways:
 - Include meaningful docstrings for all public modules, functions, classes, and methods.
 - Use type hints wherever possible.
 
-Thank you for contributing to journey_planner!
+Thank you for contributing to journey-planner!

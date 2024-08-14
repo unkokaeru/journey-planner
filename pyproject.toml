@@ -10,8 +10,8 @@ authors = ["W. Fayers <wills@fayers.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "journey_planner", from = "source"}]
-homepage = "https://github.com/unkokaeru/journey_planner"
-repository = "https://github.com/unkokaeru/journey_planner"
+homepage = "https://github.com/unkokaeru/journey-planner"
+repository = "https://github.com/unkokaeru/journey-planner"
 include = ["LICENSE", "source/journey_planner/py.typed", "source/journey_planner/VERSION"]
 
 [tool.poetry.dependencies]
