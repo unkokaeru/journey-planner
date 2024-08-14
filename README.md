@@ -1,4 +1,4 @@
-# journey_planner
+# journey-planner
 
 ![Continuous Integration (CI) Tests](https://github.com/unkokaeru/journey-planner/actions/workflows/continuous_integration.yml/badge.svg)
 
@@ -6,10 +6,10 @@ Plan a quick walk in your car!
 
 ## Installation
 
-To install journey_planner, simply run:
+To install journey-planner, simply run:
 
 ```bash
-pip install journey_planner
+pip install journey_planner_python
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ pip install journey_planner
 After installation, you can use the package by executing:
 
 ```bash
-journey_planner
+journey_planner_python
 ```
 
 ## Documentation

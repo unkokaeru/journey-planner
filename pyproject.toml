@@ -3,16 +3,16 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "journey_planner"
+name = "journey_planner_python"
 version = "0.1.1"
 description = "Plan a quick walk in your car!"
 authors = ["W. Fayers <wills@fayers.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "journey_planner", from = "source"}]
+packages = [{include = "journey_planner_python", from = "source"}]
 homepage = "https://github.com/unkokaeru/journey-planner"
 repository = "https://github.com/unkokaeru/journey-planner"
-include = ["LICENSE", "source/journey_planner/py.typed", "source/journey_planner/VERSION"]
+include = ["LICENSE", "source/journey_planner_python/py.typed", "source/journey_planner_python/VERSION"]
 
 [tool.poetry.dependencies]
 python = ">=3.8,<4.0"
@@ -21,7 +21,7 @@ geopy = "^1.11.0"
 rich = "^12.0.0"
 
 [tool.poetry.scripts]
-journey_planner = "journey_planner.main:main"
+journey_planner_python = "journey_planner_python.main:main"
 
 [tool.poetry.group.test.dependencies]
 pytest = "^7.2.0"
