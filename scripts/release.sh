@@ -6,6 +6,8 @@
 
 # The version number is passed as an argument to the script.
 
+echo "Releasing new version of journey_planner_python"
+
 # Check if the git repo is dirty
 if [[ -n $(git status --porcelain) ]]; then
     echo "The git repo is dirty. Please commit or stash your changes before releasing."
@@ -38,8 +40,8 @@ poetry version "$1"
 new_version=$(poetry version -s)
 
 # Update the VERSION file
-echo $new_version > source/blankslate/VERSION
-git add source/blankslate/VERSION
+echo $new_version > source/journey_planner_python/VERSION
+git add source/journey_planner_python/VERSION
 
 # Update the version number in the git repo
 git add .
