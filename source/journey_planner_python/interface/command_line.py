@@ -38,7 +38,7 @@ def command_line_interface() -> dict[str, Any]:
 
     argparser.add_argument(
         "--debug",
-        "-d",
+        "-D",
         action="store_true",
         # type=bool, # This is not needed as the action is store_true
         required=False,
@@ -67,13 +67,13 @@ def command_line_interface() -> dict[str, Any]:
     )  # Ending location
 
     argparser.add_argument(
-        "--length",
-        "-l",
+        "--duration",
+        "-d",
         action="store",
         type=int,
-        required=False,
-        help="Length of the journey in minutes.",
-    )  # Length of the journey
+        required=True,
+        help="Duration of the journey in minutes.",
+    )  # Duration of the journey
 
     parsed_args = argparser.parse_args()
 
