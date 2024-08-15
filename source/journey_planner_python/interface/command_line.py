@@ -40,7 +40,7 @@ def command_line_interface() -> dict[str, Any]:
         "--debug",
         "-d",
         action="store_true",
-        type=bool,
+        # type=bool, # This is not needed as the action is store_true
         required=False,
         help="Show debug messages.",
     )  # Debug mode
