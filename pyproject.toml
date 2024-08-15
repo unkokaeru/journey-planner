@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "journey_planner_python"
-version = "0.1.3"
+version = "0.1.4"
 description = "Plan a quick walk in your car!"
 authors = ["W. Fayers <wills@fayers.com>"]
 license = "MIT"
